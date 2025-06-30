@@ -87,6 +87,7 @@ const Navbar = () => {
                           isActive ? "text-[#cb202d]" : ""
                         }`
                       }
+                      onClick={()=>setOpen(false)}
                     >
                       {label}
                     </NavLink>

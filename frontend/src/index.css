@@ -47,11 +47,12 @@ html {
     align-items: start;
     justify-content: flex-start;
     gap: 0;
+
   }
 
-  .nav11121 li {
+  .nav11121 a {
     /* Your styles here */
-    display: inline;
+    /* display: inline; */
     width: 100%;
     padding: 0.5rem 0;
   }
