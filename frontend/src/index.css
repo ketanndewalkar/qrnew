@@ -1,0 +1,363 @@
+@import "tailwindcss";
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 100px) and (max-width: 900px) {
+  .nav {
+    height: 5rem;
+  }
+  .nav1 {
+    padding: 0.5rem 0.5rem;
+  }
+  .nav11 {
+    padding: 0 1.6rem;
+  }
+  .nav1112 {
+    /* display: none;  */
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: -100%;
+    height: calc(100dvh - 5rem);
+    z-index: 100;
+    background: white;
+    color: black;
+    border-radius: 0 1rem 0 0;
+    padding: 2rem 1.4rem;
+  }
+  .nav1113,.nav11131 {
+    display: none;
+  }
+  .nav1114 {
+    display: flex;
+  }
+
+  .nav11121 {
+    flex-direction: column;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    overflow-y: auto;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .nav11121 li {
+    /* Your styles here */
+    display: inline;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+  .nav11121 > :not(:first-child) {
+    border-top: 1px solid black;
+  }
+
+  .hero1 {
+    padding-top: 5rem;
+    padding-bottom: 8vw;
+    height: fit-content;
+  }
+  .hero11 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: fit-content;
+  }
+  .hero111 {
+    flex-direction: column;
+  }
+  .hero1111 {
+    width: 100%;
+    height: fit-content;
+    gap: 2vw;
+
+    padding: 4vw 4vw;
+  }
+  .hero1112 {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+  }
+
+  .hero1111 {
+    justify-content: betweeen;
+    overflow-y: auto;
+  }
+
+  .hero11111 {
+    font-size: 6.5vw;
+    line-height: 9vw;
+  }
+
+  .hero-content {
+    margin-top: 3vw;
+    font-size: 3.5vw;
+    width: 90%;
+  }
+
+  .hero11113 {
+    font-size: 3vw;
+    margin-top: 0.1vw;
+  }
+
+  .hero-btn {
+    padding: 2.9vw 4vw;
+    margin-top: 5vw;
+    font-size: 3.4vw;
+  }
+  .hero11121 {
+    height: calc(100dvh - 5rem);
+  }
+  .hero {
+    height: fit-content;
+  }
+
+  .hero21 {
+    padding: 5vw 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: fit-content;
+  }
+
+  .hero211 {
+    flex-direction: column;
+  }
+
+  .hero211 div {
+    width: 100%;
+  }
+  .hero211111 {
+    left: 0;
+    height: 30vw;
+    top: -10vw;
+  }
+
+  .hero211112 {
+    right: 0;
+
+    height: 30vw;
+    bottom: -10vw;
+  }
+
+  .hero2111 {
+    height: calc(100dvh - 8rem);
+  }
+  .hero2112 {
+    padding: 0 4vw;
+    padding-bottom:3rem
+  }
+
+  .hero2 {
+    height: fit-content;
+  }
+
+  .hero211211 {
+    font-size: 5.5vw;
+  }
+
+  .hero2112 li {
+    height: fit-content;
+    padding: 1vw 2vw;
+  }
+
+  .hero2112 li h3 {
+    font-size: 4vw;
+  }
+
+  .hero211212 {
+    margin-top: 4vw;
+    gap: 2vw;
+  }
+
+  .hero2112 li p {
+    font-size: 3.5vw;
+  }
+
+  .footer {
+    height: fit-content;
+    padding: 2vw 0.6vw;
+  }
+
+  .footer1 {
+    flex-direction: column;
+  }
+
+  .footer1-1 {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+
+  .footer1-1:first-of-type {
+    border: none;
+  }
+
+  .footer1-1 p {
+    font-size: 3vw;
+    white-space: 30px;
+  }
+
+  .social-icons,
+  .social-icon {
+    font-size: 4vw;
+  }
+
+  .heading {
+    font-size: 4vw;
+  }
+
+  .footer1-1 ul {
+    margin-top: 2vw;
+  }
+
+  .footer1-1 ul li {
+    justify-content: start;
+    align-items: center;
+    font-size:2.5vw;
+    padding-left:2.2vw;
+  }
+  
+  .about{
+    padding-top:5rem;
+  }
+
+  .about1{
+    padding:10vw 2vw;
+  }
+  .about111{
+    font-size:10vw;
+  }
+  .about11{
+    justify-content: start;
+    gap:10vw;
+  }
+  .about112{
+    flex-direction: column;
+    gap:10vw
+  }
+  .about1121{
+    width:70vw;
+    height:70vw;
+  }
+  .about1121 div h3{
+    font-size:5vw
+  }
+  .about1121 div p{
+    font-size:3vw
+  }
+  .about12{
+    margin-top:15vw;
+    padding:0 4.2vw
+  }
+  .about12 h3{
+    font-size:4.5vw
+  }
+  div h3:not(:first-of-type) {
+    margin-top: 6vw;
+}
+  .about12 p{
+    font-size:3vw;
+    word-spacing: 0.6vw;
+  }
+
+  .page11211{
+  flex-direction: column;
+  margin-top:3vw;
+  gap:4vw;
+}
+
+.page112111{
+  width:100%;
+}
+
+.page211311{
+  max-width:90%
+}
+
+.page11211{
+  flex-direction: column;
+  margin-top:3vw;
+  gap:4vw;
+}
+
+.page112111{
+  width:100%;
+}
+
+
+.login11214{
+  margin-top:4vw;
+}
+.login11211{
+  margin-top:2vw
+}
+.page11{
+  padding:0 4.2vw;
+}
+
+.page111{
+  font-size:4.8vw;
+}
+
+.page1121{
+  justify-content: start;
+}
+
+.page1{
+  padding-bottom:3vw;
+  padding-top:5rem;
+}
+.hero2111{
+  display: none;
+}
+
+.pop{
+  width:90vw;
+  height:20vh;
+  gap:5vw;
+}
+
+.pop1{
+  font-size:12vw;
+}
+
+.pop2{
+  font-size:3.5vw;
+}
+
+.pop3{
+  font-size:3.9vw
+}
+
+.heronew{
+  height:10vh;
+}
+
+.heronew1 ul{
+  gap:15vw
+}
+
+
+}
+
+.page1121 div label input,.page1121 div label select,.page1121 div label textarea,.page1121 label textarea{
+  background: #f5f5f5;
+  border:1px solid rgb(186, 186, 186);
+  margin-top:1vw
+}
+
+.about1121{
+  border-color: #cb202d;
+}
+
+html{
+  scroll-behavior: smooth;
+}
