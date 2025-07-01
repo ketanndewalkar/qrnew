@@ -3,25 +3,60 @@ import gsap from "gsap"
 const HeroNew = () => {
   const ulRef = useRef(null);
 
-  useEffect(() => {
-    const ul = ulRef.current;
+  // useEffect(() => {
+  //   const ul = ulRef.current;
 
+  //   const totalWidth = ul.scrollWidth;
+  //   const containerWidth = ul.parentElement.offsetWidth;
+
+  //   // Animate from x = 0 to x = -(totalWidth - containerWidth)
+  //   const distance = totalWidth - containerWidth;
+
+  //   if (distance > 0) {
+  //     gsap.to(ul, {
+  //       x: -distance,
+  //       duration: 15, // adjust speed
+  //       ease: "linear",
+  //       repeat: -1,   // infinite
+  //       yoyo: true,   // bounce back to original position
+  //     });
+  //   }
+  // });
+
+  useEffect(() => {
+  const ul = ulRef.current;
+  const images = ul.querySelectorAll('li img');
+  let loaded = 0;
+
+  images.forEach(img => {
+    if (img.complete) {
+      loaded++;
+    } else {
+      img.onload = () => {
+        loaded++;
+        if (loaded === images.length) startAnimation();
+      };
+    }
+  });
+
+  if (loaded === images.length) startAnimation();
+
+  function startAnimation() {
     const totalWidth = ul.scrollWidth;
     const containerWidth = ul.parentElement.offsetWidth;
-
-    // Animate from x = 0 to x = -(totalWidth - containerWidth)
     const distance = totalWidth - containerWidth;
 
     if (distance > 0) {
       gsap.to(ul, {
         x: -distance,
-        duration: 15, // adjust speed
+        duration: 15,
         ease: "linear",
-        repeat: -1,   // infinite
-        yoyo: true,   // bounce back to original position
+        repeat: -1,
+        yoyo: true,
       });
     }
-  }, []);
+  }
+}, []);
 
   return (
     <div className="w-full h-[10vw] px-[10.2vw] py-[2vw] my-[5vw] heronew">
