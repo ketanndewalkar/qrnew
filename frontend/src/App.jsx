@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Hero2 from "./pages/Hero2";
 import Hero1 from "./pages/Hero1";
 import HeroNew from "./pages/HeroNew";
+import Hero3 from "./pages/Hero3";
+import Demo from "./pages/Demo";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,8 @@ const router = createBrowserRouter([
             <Hero1 />
             <HeroNew/>
             <Hero2 />
+            <Hero3/>
+            {/* <Demo/> */}
           </>
         ),
       },

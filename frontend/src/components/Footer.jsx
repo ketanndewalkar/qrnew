@@ -49,26 +49,26 @@ Simple, smart, and effective offline advertising.
             Contact Company
           </h1>
           <ul className="flex flex-col gap-6 py-4 justify-between w-full company-contact ">
-            <li className="flex gap-4 text-[1vw]">
+            <li className="flex gap-4 text-[1vw] items-center">
               <MdCall className="text-[1.3vw] social-icon text-[#767577]" />
-              <p className="content-footer"> +91 9811163070 , +91 7838177347</p>
+              <p className="content-footer"> +91 9284984499 , +91 7620226755</p>
             </li>
-            <li className="flex gap-4 text-[1vw]">
+            <li className="flex gap-4 text-[1vw] items-center">
               <MdMail className="text-[1.3vw] social-icon text-[#767577]" />
               <p className="content-footer">
-                info@abhinavtradex.com, abhinavtradex2001@gmail.com
+                qrwalk0@gmail.com
               </p>
             </li>
-            <li className="flex gap-4 text-[1vw]">
+            <li className="flex gap-4 text-[1vw] items-center">
               <FaLocationDot className="text-[1.3vw] social-icon text-[#767577]" />
               <p className="content-footer">
                 5/2389/103, New Mela Ram market, Chatta Shahji, Chawri Bazar,
                 Delhi-11006
               </p>
             </li>
-            <li className="flex gap-4 text-[1vw]">
+            <li className="flex gap-4 text-[1vw] items-center">
               <BsGlobeAsiaAustralia className="text-[1.3vw] social-icon text-[#767577]" />
-              <p className="content-footer"> www.abhinavtradex.com</p>
+              <p className="content-footer"></p>
             </li>
           </ul>
         </div>

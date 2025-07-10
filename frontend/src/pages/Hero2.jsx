@@ -6,17 +6,17 @@ const Hero2 = () => {
       <div className=" size-full px-[10.2vw] py-[1vw] hero21">
         <div className="size-full flex hero211">
           <div className="w-1/2 h-full p-[5vw] hero2111">
-            <div className="border-5 size-full relative rounded-lg z-49 flex items-center bg-gray-200 hero21111 ">
+            <div className="border-1 border-gray-300 size-full relative rounded-lg z-49 flex items-center bg-gray-200 hero21111 justify-center">
               <img
-                src="new1.png"
-                className="object-center object-cover size-full mix-blend-multiply"
+                src="landinglogo1.png"
+                className="object-center object-cover h-[65%] mix-blend-multiply"
               />
               <div className="absolute top-[-5.5vw] left-[-5vw] w-[10vw] h-[11vw] rounded-lg z-50 bg-white border-5 border-white hero211111">
                 <video
                   autoPlay
                   loop
                   muted
-                  className="h-full w-full border-5 border-black rounded-lg"
+                  className="h-full w-full shadow-md border-1 border-gray-300 rounded-lg hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                   <source src="landing1.mp4" type="video/mp4" />
                 </video>
@@ -26,7 +26,7 @@ const Hero2 = () => {
                   autoPlay
                   loop
                   muted
-                  className="h-full w-full border-5 border-black rounded-lg"
+                  className="h-full w-full shadow-md border-1 border-gray-300 rounded-lg hover:scale-105 transition-all duration-300 ease-in-out"
                 >
                   <source src="QrCode.mp4" type="video/mp4" />
                 </video>

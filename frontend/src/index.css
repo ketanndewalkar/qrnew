@@ -348,7 +348,51 @@ html {
 .heronew1 ul{
   gap:15vw
 }
+.hero3{
+  padding:2vw 0
+}
 
+.hero3,.hero31{
+  height: fit-content;
+}
+
+.hero3111{
+  flex-direction:column;
+  gap:3vw
+}
+
+.hero3111 li{
+  width:100%;
+  padding:5vw;
+}
+
+.hero3111 li h1{
+  font-size:5vw
+}
+
+.about2,.about3{
+  height:fit-content;
+  flex-direction: column;
+}
+
+.about2{
+  flex-direction:column-reverse
+}
+
+.about2 div ,.about3 div{
+  width:100%
+}
+
+.about211 h1,.about311 h1{
+  font-size:7vw
+}
+
+.about211 span,.about311 span {
+  font-size:3vw
+}
+.margin-top{
+  margin-top:20vw
+}
 
 }
 

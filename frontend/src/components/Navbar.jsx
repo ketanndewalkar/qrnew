@@ -76,6 +76,7 @@ const Navbar = () => {
                 <ul className="flex h-full items-center gap-[4vw] text-[1.1vw] font-semibold nav11121">
                   {[
                     { label: "Home", to: "/" },
+                    { label: "Demo", to: "/demo" },
                     { label: "About Us", to: "/about" },
                     { label: "Contact", to: "/contact" },
                   ].map(({ label, to }) => (
@@ -83,7 +84,7 @@ const Navbar = () => {
                       key={to}
                       to={to}
                       className={({ isActive }) =>
-                        `hover:text-[#cb202d] hover:cursor-pointer transform hover:scale-110 ${
+                        `hover:text-[#cb202d] hover:cursor-pointer transform hover:scale-103 ${
                           isActive ? "text-[#cb202d]" : ""
                         }`
                       }
@@ -94,17 +95,7 @@ const Navbar = () => {
                   ))}
 
                   {/* Contact Info */}
-                  <div className="h-full flex items-center gap-[1vw] nav11131">
-                    <div className="bg-[#cb202d] rounded-full p-[0.5vw]">
-                      <MdCall className="text-[2.5vw] text-white" />
-                    </div>
-                    <div className="h-full flex flex-col items-start justify-center leading-5">
-                      <p className="text-gray-500 text-[0.95vw] font-semibold">
-                        Make A Call Anytime
-                      </p>
-                      <b className="text-[1.2vw]">+91 9545-722-987</b>
-                    </div>
-                  </div>
+                  
                 </ul>
               </div>
 
