@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             <HeroNew/>
             <Hero2 />
             <Hero3/>
-            {/* <Demo/> */}
+            
           </>
         ),
       },
@@ -46,6 +46,15 @@ const router = createBrowserRouter([
           </>
         ),
       },
+      {
+        path: "/demo",
+        element: (
+          <>
+            <Demo />
+          </>
+        ),
+      },
+
     ],
   },
 ]);

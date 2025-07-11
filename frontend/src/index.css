@@ -394,6 +394,63 @@ html {
   margin-top:20vw
 }
 
+.demo{
+  padding:0 4.2vw;
+  padding-top:5rem;
+
+}
+
+.demo1{
+  flex-direction: column;
+  gap:2vw;
+  height: fit-content;
+}
+
+.demo11{
+  width:100%;
+  height: fit-content;
+  padding:4vw 0;
+  gap:3vw
+  
+}
+
+
+.demo111 h1{
+  font-size:8vw;
+}
+
+.demo12{
+  position: static;
+  height: fit-content;
+}
+
+.demo112 p{
+  font-size:3.5vw;
+  margin-top:2vw;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.demo112 a{
+  padding:2vw 6vw;
+  margin-top:2vw;
+  border-radius: 0.5rem;
+  font-size:3vw
+}
+
+.demo21{
+  min-height:fit-content;
+}
+
+.demo2{
+  margin:4vw 0;
+}
+
+.demo-video-h1{
+  font-size: 5vw;
+  margin-top: 12vw;
+}
+
 }
 
 .page1121 div label input,.page1121 div label select,.page1121 div label textarea,.page1121 label textarea{
